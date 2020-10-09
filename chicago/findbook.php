@@ -15,32 +15,22 @@
     <?php include "inc/nav.php"; ?>
 
     <div class="container">
-    Map goes here
 
-    <button type="button">search</button>
+    
+    <form action="action_page.php">
+        <label for="fname">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode">
+        <label for="lname">Book Title:</label>
+        <input type="text" id="book_title" name="book_title">
+        <input type="submit" value="Search">
+    </form>
+            
     </div>
     
     <?php include "inc/scripts.php"; ?>
-
+    
 
 </body>
 
 </html>
 
-<?php
- $url = 'http://localhost:7000/getbook?book_title=Obama';
- $data = array('kwy1' => 'value1', 'key2' => 'value2');
-
- $options = array(
-     'http' => array(
-         'header' => "Content-type : application/x-www.form-urlencoded\r\n",
-         'method' => 'GET',
-         'content' => http_build_query($data)
-     )
-     );
-
-     $context = stream_context_create($options);
-     $result = file_get_contents($url, false, $context);
-     
-     var_dump($result);
-?>

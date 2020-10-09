@@ -5,7 +5,8 @@ import sqlite3
 class BookCrawler:
     def __init__(self):
         self.searchURL = "https://www.barnesandnoble.com/s/"
-        self.availabilityURL = "https://www.barnesandnoble.com/xhr/storeList-with-prodAvailability.jsp?action=fromSearch&radius=100&searchString=14627&myBn=&skuId="
+        self.availabilityURL = "https://www.barnesandnoble.com/xhr/storeList-with-prodAvailability.jsp?action=fromSearch&radius=100&searchString="
+        self.availabilityURL2 = "&myBn=&skuId="
         self.top100URL = "https://www.barnesandnoble.com/b/books/_/N-1fZ29Z8q8?Nrpp=20&page="
         self.connection = sqlite3.connect("data.db")
         self.cursor = self.connection.cursor()
@@ -16,6 +17,8 @@ class BookCrawler:
         headers = {
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Scafari/537.36"
         }
+        #put headers to avoid bot rejection
+        #send HTTP request
         response = requests.get(inputURL, headers=headers)
         html = response.text
         response.encoding = None
@@ -43,8 +46,8 @@ class BookCrawler:
         result = self.request(self.searchURL + bookTitle)
         return result
 
-    def availability_URL(self, book_ID):
-        return self.request(self.availabilityURL + book_ID)
+    def availability_URL(self, book_ID, zipcode):
+        return self.request(self.availabilityURL + zipcode + self.availabilityURL2 + book_ID)
 
     def get_bookID(self, soup):
         img = soup.find_all("img", {"class": "full-shadow"})
@@ -151,16 +154,17 @@ class BookCrawler:
                 print(sql)
             i += 1
 
-    def get_books(self, book_title):
+    def get_books(self, book_title, zipcode):
         soup = self.search_book_URL(book_title)
         bookID = self.get_bookID(soup)
-        available_books = self.availability_URL(bookID)
+        available_books = self.availability_URL(bookID, zipcode)
         book_infos = self.get_information(available_books)
 
         return book_infos
 
 if __name__ == "__main__":
 
+    zipcode = "95356"
     c = BookCrawler()
     #c.DB_insert()#
   #  c.top100_titles(c.top100URL)
@@ -168,7 +172,7 @@ if __name__ == "__main__":
     #print(soup)
     bookID = c.get_bookID(soup)
     #print(bookID)
-    available_books = c.availability_URL(bookID)
+    available_books = c.availability_URL(bookID, zipcode)
     #print(available_books)
     book_infos = c.get_information(available_books)
     print(book_infos)

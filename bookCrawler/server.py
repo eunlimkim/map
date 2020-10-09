@@ -6,6 +6,7 @@ import folium
 import pandas as pd
 import io
 from PIL import Image
+import sys
 
 #create flask object
 app = Flask(__name__)
@@ -13,13 +14,21 @@ app = Flask(__name__)
 c = BookCrawler()
 
 # create a route to getbook http://localhost:7000/getbook
-
+import urllib
 #"POST", "GET"
-@app.route('/getbook', methods=["GET"])
+@app.route('/getbook', methods=["GET","POST"])
 def getbook():
-    title = req.args.get("book_title")
-    infos = c.get_books(title)
-    m = folium.Map(location= infos[0][-1], zoom_start=12)
+    data = req.data.decode('utf8')
+    data = urllib.parse.unquote_plus(data)
+
+    tokens = data.split("&")
+
+    title = tokens[0].split("=")[-1]
+    zipcode = tokens[1].split("=")[-1]
+
+    infos = c.get_books(title, zipcode)
+    m = folium.Map(location= infos[1][-1], zoom_start=10)
+
     for store in infos:
         folium.Marker(location = store[-1], icon = folium.Icon(color='green')).add_to(m)
 
