@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
 		$query = "INSERT INTO myblog.post (title, content, image_link) VALUES ('$title', '$content', '$img')";
 		error_log($query);
 		$result = mysqli_query($connection, $query);
-		header("Location: post_lists.php");
+		header("Location: blog.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form

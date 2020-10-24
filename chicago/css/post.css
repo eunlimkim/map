@@ -1,0 +1,27 @@
+  @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans&family=Rajdhani&display=swap');
+
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+.submit{
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.container{
+    height: 480px;
+    width: 500px;
+    align-content: center;
+
+}

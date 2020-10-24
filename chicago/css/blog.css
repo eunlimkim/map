@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans&family=Rajdhani&display=swap');
+
+  .card-img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+  }
+  
+  .card-title {
+    margin-bottom: 0.3rem;
+    text-align: center;
+  }
+  
+  .card-text {
+    text-align: center;
+  }
+
+  .cat {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .fa-users {
+    margin-left: 1rem;
+  }
+  
+  .card-footer {
+    font-size: 0.8rem;
+  }
+
+  .views{
+    text-align: right;
+  }
+
+  img{
+    padding-top: 5%;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .each{
+      padding-bottom: 5%;
+  }
+
+  h1{
+    font-weight: bold !important;
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+  }

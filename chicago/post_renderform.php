@@ -1,11 +1,23 @@
 <?php
 // creates the edit record form
-function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
+function renderForm($id, $title, $content, $img, $blurb, $link, $error) {
 ?>
-<!doctype html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/post.css">
+
+</head>
+
 	<body>
-		<header>
-		</header>
+
 		<?php
 		// if there are any errors, display them
 		if ($error != '') {
@@ -16,27 +28,26 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 		}
 		?>
 		<div class="container">
-		<form action="#" method="post" enctype="multipart/form-data" class="form-inline">
-			<input type="hidden" name="id" value="<?php echo $id; ?>">
-			<div class="form-group">
-				<label for="title">Title:</label> <input type="text" name="title" id="title">
-                
-			</div>
+					<form action="#" method="post" enctype="multipart/form-data" class="form-inline">
+						<input type="hidden" name="id" value="<?php echo $id; ?>">
+						<label for="title">Title:</label> 
+							<input type="text" name="title" id="title">	
 
-			<div class="form-group">
-				<label for= "content">content:</label> <input type="text" name="content" id="content">
-			</div>
+						<label for= "content">content:</label> 
+							<input type="text" name="content" id="content" size="40">
 			
-			<div class="custom-file form-group">
-				<label for ="img" class="custom-file-label">Upload your headshot:</label> <input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
-			</div>
-			
-			<input  type="submit" name="submit" value="Submit" class="btn btn-primary btn-block">
-			<div>
-        	</div>
-		</form>
-	 	</div>
+						<label for ="img" class="custom-file-label">Upload your photo:</label> 
+							<input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
 
+				<div class="submit">
+						<input  type="submit" name="submit" value="Submit" class="button">
+				</div>
+					</form>
+		</div>
+
+		<script>
+			document.getElementById('content').style.padding="5px 5px 100px 5px";
+		</script>
 	    
         
 	</body>

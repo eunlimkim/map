@@ -20,7 +20,7 @@
         $zipcode = $_GET['zipcode'];
         $book_title = $_GET['book_title'];
 
-        $url = 'http://localhost:7000/getbook';
+        $url = 'http://3.15.184.16:7000/getbook';
         $data = array('book_title' => $book_title, 'zipcode' => $zipcode);
 
         $options = array(
