@@ -30,10 +30,12 @@
             </a>
             </li>
             <li>
-            <a href="applications.php" target="_self">
-            <h1>Applications</h1>
+            <a href="hospitals.php" target="_self">
+            <h1>Find Hospitals near you</h1>
             </a>
             </li>
+
+
         </ul></div>
     </header>
 

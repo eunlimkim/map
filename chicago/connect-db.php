@@ -8,6 +8,14 @@ $db = 'myBlog';
 $port = '3306';
 
 
+// $server = 'localhost';
+// $user = 'root';
+// $pass = 'password';
+// $db = 'myBlog';
+// $port = '3307';
+
+
+
 // Connect to Database
 $connection = mysqli_connect($server,$user,$pass,$db, $port);
 if (!$connection) {
