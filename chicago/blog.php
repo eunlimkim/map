@@ -27,11 +27,18 @@
     <div>
         <?php
       // connect to the database
+	error_log("start selecting");
       include('connect-db.php');
       // get results from database
-      $result = mysqli_query($connection, "SELECT * FROM myblog.post ORDER BY created_at desc");
+      $result = mysqli_query($connection, "SELECT * FROM myBlog.post ORDER BY created_at desc");
       ?>
-      
+	<?php
+	      if ( false===$result ){
+
+		error_log(mysqli_error($connection));
+	}
+      ?>
+
       <div class="container">
 
       <?php

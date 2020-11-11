@@ -1,5 +1,6 @@
 <?php
 // Database Variables (edit with your own server information)
+
 $server = '3.15.184.16';
 $user = 'abong';
 $pass = 'abong1234';

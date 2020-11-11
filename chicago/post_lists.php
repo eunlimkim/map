@@ -8,7 +8,7 @@
       include('connect-db.php');
 
       // get results from database
-      $result = mysqli_query($connection, "SELECT * FROM myblog.post ORDER BY created_at desc");
+      $result = mysqli_query($connection, "SELECT * FROM myBlog.post ORDER BY created_at desc");
       ?>
       
       <ul>
