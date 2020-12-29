@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30c66a-d0de-4959-8899-92c897865ede" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chicago/connect-db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../chicago/connect-db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chicago/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/../chicago/projects.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +45,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1602213841300">
+    <state x="686" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1606023930585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="686" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602213841300" />
+    <state x="686" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606023930585" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601179684621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

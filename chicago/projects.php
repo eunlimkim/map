@@ -14,33 +14,41 @@
 
     <?php include "inc/nav.php"; ?>
     <header>
-        <a href="index.php" target="_self">
             <h1>Projects</h1>
-        </a>
-        <div class="top">
-        <ul>
-            <li>
-            <a href="findbook.php" target="_self">
-            <h1>Find books near you</h1>
-            </a>
-            </li>
-            <li>
-            <a href="animations.php" target="_self">
-            <h1>Animations</h1>
-            </a>
-            </li>
-            <li>
-            <a href="hospitals.php" target="_self">
-            <h1>Find Hospitals near you</h1>
-            </a>
-            </li>
 
-
-        </ul></div>
+        <div class="awards">
+            <div id="accordion">
+                <h3>Find books near you</h3><div class="pannel">
+                <ul>
+                <a href="findbook.php" target="_self">
+                Find books near you - click!
+                </a>
+                </ul></div>
+                <h3>Find Hospitals near you</h3><div class="pannel">
+                <ul>
+                    <a href="hospitals.php" target="_self">
+                    Find Hospitals near you - click!
+                    </a>
+                </ul></div>
+                <h3>Animatoins</h3><div class="pannel">
+                <ul>
+                <a href="animations.php" target="_self">
+                Animations - click!
+                </a>
+                </ul></div>
+            </div>
+        </div>   
     </header>
 
     <?php include "inc/scripts.php"; ?>
 
+<script>
+$( function() {
+ $( "#accordion" ).accordion({
+   collapsible: true
+ });
+} );
+</script>
 
 </body>
 
