@@ -21,19 +21,19 @@
                 <h3>Find books near you</h3><div class="pannel">
                 <ul>
                 <a href="findbook.php" target="_self">
-                Find books near you - click!
+                Let's search for your books - click!
                 </a>
                 </ul></div>
-                <h3>Find Hospitals near you</h3><div class="pannel">
+                <h3>Find all Covid-19 Screen Clinics </h3><div class="pannel">
                 <ul>
                     <a href="hospitals.php" target="_self">
-                    Find Hospitals near you - click!
+                    Screen Clinics in South Korea - click!
                     </a>
                 </ul></div>
                 <h3>Animatoins</h3><div class="pannel">
                 <ul>
                 <a href="animations.php" target="_self">
-                Animations - click!
+                Short Animations - click!
                 </a>
                 </ul></div>
             </div>
