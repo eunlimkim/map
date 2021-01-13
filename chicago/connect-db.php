@@ -1,18 +1,18 @@
 <?php
 // Database Variables (edit with your own server information)
 
-$server = '3.15.184.16';
-$user = 'abong';
-$pass = 'abong1234';
-$db = 'myBlog';
-$port = '3306';
-
-
-// $server = 'localhost';
-// $user = 'root';
-// $pass = 'password';
+// $server = '3.15.184.16';
+// $user = 'abong';
+// $pass = 'abong1234';
 // $db = 'myBlog';
-// $port = '3307';
+// $port = '3306';
+
+
+$server = 'localhost';
+$user = 'root';
+$pass = 'password';
+$db = 'myBlog';
+$port = '3307';
 
 
 
