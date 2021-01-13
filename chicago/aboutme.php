@@ -170,88 +170,88 @@ diversity; raised funds for North Korean refugees through various cultural event
 
         <h2>Art Portfolio</h2>
 
-        <div class="grid">
+        <div class="portfolio">
             <div class="box one">
-                <img src="images/metaljar.jpg" alt="metal jar" class="image">
+                <img src="images/charcoal.jpg" alt="charcoal" class="image">
                 <div class="overlay">
-                    <div class="text">Metal Jar - Pencil and Acrylic</div>
+                    <div class="text">Charcoal Drawing - My Essentials</div>
                 </div>
             </div>
 
             <div class="box two">
-                <img src="images/jars.jpg" alt="two jars" class="image">
+                <img src="images/cucumber.jpg" alt="cucumber" class="image">
                 <div class="overlay">
-                    <div class="text">Two Jars - Acrylic on Canvas Board</div>
+                    <div class="text">Korean Traditional Painting - Cucumber</div>
                 </div>
             </div>
 
             <div class="box three">
-                <img src="images/threehands.jpg" alt="three hands clasping" class="image">
+                <img src="images/eggplant.jpg" alt="eggplant" class="image">
                 <div class="overlay">
-                    <div class="text">Hands Touching Hands - Acrylic on Canvas Board</div>
+                    <div class="text">Korean Traditional Painting - Eggplant</div>
                 </div>
             </div>
 
             <div class="box four">
-                <img src="images/equality.jpg" alt="sign for equality" class="image">
+                <img src="images/flowers.jpg" alt="flowers" class="image">
                 <div class="overlay">
-                    <div class="text">Equality - Pencil</div>
+                    <div class="text">Korean Traditional Painting - Favorite Flowers</div>
                 </div>
             </div>
 
             <div class="box five">
-                <img src="images/bootandanchor.jpg" alt="boot and anchor" class="image">
+                <img src="images/camellia_plate.jpg" alt="camellia_plate" class="image">
                 <div class="overlay">
-                    <div class="text">Boot and Anchor</div>
+                    <div class="text">Korean Traditional Painting - Camellia on the Wooden Small Table</div>
                 </div>
             </div>
 
             <div class="box six">
-                <img src="images/self.jpg" alt="self portrait in reds" class="image">
+                <img src="images/eggplants_cucumbers.jpg" alt="eggplants_cucumbers" class="image">
                 <div class="overlay">
-                    <div class="text">Self Portrait in Reds - Acrylic on Canvas</div>
+                    <div class="text">Korean Traditional Painting - Eggplant and Cucumber</div>
                 </div>
             </div>
 
             <div class="box seven">
-                <img src="images/covered.jpg" alt="woman covering eyes" class="image">
+                <img src="images/kids.jpg" alt="kids" class="image">
                 <div class="overlay">
-                    <div class="text">Covered Eyes - Acrylic on Canvas</div>
+                    <div class="text">Korean Traditional Painting - Kids Playing</div>
                 </div>
             </div>
 
             <div class="box eight">
-                <img src="images/eyes.jpg" alt="eye contact" class="image">
+                <img src="images/light.jpg" alt="light" class="image">
                 <div class="overlay">
-                    <div class="text">Eye Contact - Acrylic on Canvas</div>
+                    <div class="text"> Acrylic Painting - Abstract "Lights at Night"</div>
                 </div>
             </div>
 
             <div class="box nine">
-                <img src="images/folk.jpg" alt="painting of two faces and the quotes 'nothing to fear but fear itself' and 'slow and steady wins the race'" class="image">
+                <img src="images/iris.jpg" alt="iris" class="image">
                 <div class="overlay">
-                    <div class="text">Folktales and Phobias - Mixed Media</div>
+                    <div class="text">Korean Traditional Painting - Iris</div>
                 </div>
             </div>
 
             <div class="box ten">
-                <img src="images/branches.jpg" alt="branches" class="image">
+                <img src="images/cosmos.jpg" alt="cosmos" class="image">
                 <div class="overlay">
-                    <div class="text">Branches - Scrathboard</div>
+                    <div class="text">Korean Traditional Painting - Cosmos</div>
                 </div>
             </div>
 
             <div class="box eleven">
-                <img src="images/colors.jpg" alt="abstract painting" class="image">
+                <img src="images/camellia.jpg" alt="camellia" class="image">
                 <div class="overlay">
-                    <div class="text">In the Air - Acrylic on Canvas</div>
+                    <div class="text">Korean Traditional Painting - Camellia</div>
                 </div>
             </div>
 
             <div class="box twelve">
-                <img src="images/connect.jpg" alt="shows how we connect through different identities" class="image">
+                <img src="images/chrysanthemum_japonense.jpg" alt="chrysanthemum_japonense" class="image">
                 <div class="overlay">
-                    <div class="text">Connections - Mixed Media</div>
+                    <div class="text">Korean Traditional Painting - Chrysanthemum Japonense</div>
                 </div>
             </div>
         </div>

@@ -60,7 +60,9 @@ h4
 .image{
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 100%;
+  max-width:250px;
+  max-height: 250px;
 }
 
 .overlay {
@@ -137,6 +139,13 @@ h4
   	justify-content: center;
 }
 
+.portfolio{
+  display: grid;
+  justify-content: center;
+  grid-gap: 50px;
+
+}
+
 .roc, .i{
 	grid-row: 1;
 	grid-column: 1;
@@ -186,17 +195,6 @@ a{
 
 /* Mobile Design */
    
-
-@media(max-width: 930px)
-{
-	.grid, .interests, .edu{ display: block; }
-	.image, .overlay{
-		max-width: 300px;
-		min-width: 150px;
-		margin-bottom: 20px;
-	}
-}
-
 @media(max-width: 960px){
 	figure {
           float: none;
@@ -206,6 +204,43 @@ a{
      	width: 100%;
      	min-width: 200px;
      }
+     .portfolio{
+      display: block;
+      column-count: 3;
+      }
 }
+
+@media(max-width: 930px)
+{
+	.grid, .interests, .edu{ display: block; }
+	.image, .overlay{
+		max-width: 300px;
+		min-width: 150px;
+		margin-bottom: 20px;
+  }
+  .portfolio{
+    display: block;
+    column-count: 3;
+    }
+}
+
+@media(max-width: 700px){
+  
+  .portfolio{
+    display: block;
+    column-count: 1;
+  }
+  .image, .overlay{
+		max-width: 300px;
+    min-width: 150px;
+    max-height: 500px;
+    min-height: 150px;
+		margin-bottom: 20px;
+  }
+}
+
+
+
+
 
 
