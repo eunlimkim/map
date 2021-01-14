@@ -29,10 +29,10 @@
                 <div class="image-slide">
                     <div class="box">
                         <ul class="slide" style="transition: left 0.3s ease 0s; left: -200%;">
-                            <li style="left: 0%; display: block;"><a href="#"><img class = "image_size" alt="1" src="images/me.jpg"></a></li>
-                            <li style="left: 100%; display: block;"><a href="#"><img class = "image_size" alt="2" src="images/me3.jpg"></a></li>
+                            <li style="left: 0%; display: block;"><a href="#"><img class = "image_size" alt="1" src="images/me.JPG"></a></li>
+                            <li style="left: 100%; display: block;"><a href="#"><img class = "image_size" alt="2" src="images/me3.JPG"></a></li>
                             <li style="left: 200%; display: block;"><a href="#"><img class = "image_size" alt="3" src="images/me1.jpg"></a></li>
-                            <li style="left: 300%; display: block;"><a href="#"><img class = "image_size" alt="4" src="images/paris1.jpg"></a></li>
+                            <li style="left: 300%; display: block;"><a href="#"><img class = "image_size" alt="4" src="images/paris1.JPG"></a></li>
                             <li style="left: 400%; display: block;"><a href="#"><img class = "image_size" alt="5" src="images/paris2.jpg"></a></li>
                             <li style="left: 500%; display: block;"><a href="#"><img class = "image_size" alt="6" src="images/abong.jpg"></a></li>
                             <li style="left: 600%; display: block;"><a href="#"><img class = "image_size" alt="7" src="images/rochester1.jpg"></a></li>
