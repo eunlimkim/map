@@ -36,7 +36,7 @@ function renderForm($id, $title, $content, $img, $blurb, $link, $error) {
 						<label for= "content">content:</label> 
 							<input type="text" name="content" id="content" size="40">
 			
-						<label for ="img" class="custom-file-label">Upload your photo:</label> 
+						<label for ="img" class="custom-file-label">Upload file (ONLY .jpg):</label> 
 							<input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
 
 				<div class="submit">

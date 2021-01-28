@@ -36,7 +36,7 @@
             <h2>Interests</h2>
             <p> My general hobbies are cooking and drawing. In middle school and high school year, I was not able to go Korean restaurant without my host family 
             and most of the time we ate at home. I decided to cook one for myself and ever since then, it became my hobby! I also love buying new technology products and try it. 
-            Especially assistive technology such as googleg smart speaker or any types of smart home devices made me so thrilled.
+            Especially assistive technology such as google smart speaker or any types of smart home devices makes me so thrilled.
             </p>
 
         </header>
@@ -103,12 +103,18 @@
                         <li>Organized data in Excel for informations of the products and companies, types of injuries, and degree of injuries</li>
                         <li>Created statistical charts showing companies and amount of complaints received, injury types and product types,
         and more in RStudio</li>
-                        <li>Created a poster on Adobe Photoshop for recruitment</li>
+                        <li>Participated in creating a poster on Adobe Photoshop for recruitment</li>
                     </ul>
                 <!-- <p>Assisted to collect data for how many complaints were made for each baby products and how many injuries
 occurred by using the products</p> -->
 
                 <h3>USIS / Internship</h3>
+                <ul>
+                    <li>Taught Computer Science courses for high school and college students </li>
+                    <li>Conducted seminars to parents and students interested in Computer Science field</li>
+                    <li>Provided mentoring for students interested in Computer Science majors in College </li>
+                </ul>
+                <h3>Prestige Academic Consulting / Teacher-Mentor</h3>
                 <ul>
                     <li>Created a word document manual (in Python, PHP, Java) for GNU GetText for team members</li>
                     <li>Made translation possible between Korean and English using GNU GetText tool in Python</li>
@@ -138,7 +144,7 @@ occurred by using the products</p> -->
                 <div class="heading">Activities</div>
                 <div class="grid">
                     <div class="roc">
-                <h3>University of Rochester, KASA</h3>
+                <h3>University of Rochester, KSU</h3>
                 <ul>
                     <li>Counsel underclass Korean undergraduate students majoring in computer science subfields by providing
                         relevant resources, advice, and teaching assistance</li>
@@ -153,7 +159,7 @@ diversity; raised funds for North Korean refugees through various cultural event
                         thinking</li>
                     <li> Participated in volunteer tutoring programs teaching coding lessons to high school students</li>
                 </ul>
-                <h3>Volunteered</h3>
+                <h3>Volunteering</h3>
                     <ul>
                         <li> Volunteered at Sooyoung Catholic Church teaching elementary students basic math and english every Sunday</li>
                         <li>Participated in the program which delivers food to disabled elders and holds various events for them such as a

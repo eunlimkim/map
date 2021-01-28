@@ -193,6 +193,12 @@ a{
   color: #27496d;
 }
 
+.blog_form{
+  border-radius: 5px;
+  background-color:grey;
+  padding: 20px;
+}
+
 /* Mobile Design */
    
 @media(max-width: 960px){

@@ -18,22 +18,29 @@
 
         <div class="awards">
             <div id="accordion">
-                <h3>Find books near you</h3><div class="pannel">
+                <h3>Find Bookstores Near You</h3><div class="pannel">
                 <ul>
                 <a href="findbook.php" target="_self">
                 Let's search for your books - click!
+                </p>
                 </a>
                 </ul></div>
-                <h3>Find all Covid-19 Screen Clinics </h3><div class="pannel">
+                <h3>Find all Covid-19 Screening Clinics </h3><div class="pannel">
                 <ul>
                     <a href="hospitals.php" target="_self">
-                    Screen Clinics in South Korea - click!
+                    Screening Clinics in South Korea - click!
                     </a>
                 </ul></div>
                 <h3>Animatoins</h3><div class="pannel">
                 <ul>
                 <a href="animations.php" target="_self">
                 Short Animations - click!
+                </a>
+                </ul></div>
+                <h3>Product Concept Design</h3><div class="pannel">
+                <ul>
+                <a href="design.php" target="_self">
+                Product Concept Design - click!
                 </a>
                 </ul></div>
             </div>
