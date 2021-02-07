@@ -36,13 +36,13 @@
                 <a href="animations.php" target="_self">
                 Short Animations - click!
                 </a>
-                <!-- </ul></div>
+                </ul></div>
                 <h3>Product Concept Design</h3><div class="pannel">
                 <ul>
                 <a href="design.php" target="_self">
                 Product Concept Design - click!
                 </a>
-                </ul></div> -->
+                </ul></div>
             </div>
         </div>   
     </header>
